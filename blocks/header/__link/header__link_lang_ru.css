@@ -1,0 +1,11 @@
+.header__link_lang_en {
+  text-decoration-line: underline;
+  margin-top: 46px;
+  margin-right: 18px;
+}
+
+@media (max-width: 320px) {
+  .header__link_lang_en {
+    margin-top: 30px;
+  }
+}

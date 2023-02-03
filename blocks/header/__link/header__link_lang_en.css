@@ -1,17 +1,17 @@
-  .header__lang-link_en {
+  .header__link_lang_en {
     margin-top: 46px;
     margin-right: 48px;
   }
 
 
 @media (max-width: 768px) {
-  .header__lang-link_en {
+  .header__link_lang_en {
     margin-right: 24px;
   }
 }
 
 @media (max-width: 320px) {
-  .header__lang-link_en {
+  .header__link_lang_en {
     margin-top: 30px;
     margin-right: 16px;
   }
