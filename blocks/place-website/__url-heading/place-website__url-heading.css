@@ -7,7 +7,7 @@
     color: #aaaaaa;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     .place-website__url-heading {
       line-height: 12px;
     }
