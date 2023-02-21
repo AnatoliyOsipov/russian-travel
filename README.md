@@ -2,4 +2,4 @@
 
 ### Проект о путешествии по России. Оттачивал навыки flexbox, тренировал применение grid. Сделал адаптивную верстку. Добавил немного анимации при наведение курсора.
 
-### https://github.com/AnatoliyOsipov/russian-travel
+### https://anatoliyosipov.github.io/russian-travel/
