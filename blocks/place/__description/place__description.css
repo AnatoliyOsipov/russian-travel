@@ -11,8 +11,8 @@
 }
 
 @media (max-width: 767px) {
-    .place__description {
-      margin-left: 16px;
-      margin-right: 16px;
-    }
+  .place__description {
+    margin-left: 16px;
+    margin-right: 16px;
   }
+}

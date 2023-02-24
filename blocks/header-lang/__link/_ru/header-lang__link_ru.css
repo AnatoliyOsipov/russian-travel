@@ -9,3 +9,7 @@
     margin-top: 30px;
   }
 }
+
+.header-lang__link_en:hover {
+  opacity: 0.8;
+}

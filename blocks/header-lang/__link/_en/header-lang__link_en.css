@@ -16,3 +16,7 @@
     margin-right: 16px;
   }
 }
+
+.header-lang__link_en:hover {
+  opacity: 0.8;
+}

@@ -1,13 +1,12 @@
-  .header__logo {
-    width: 176px;
-    height: 52px;
-    background-image: url(../../../images/logo.png);
-    margin-top: 28px;
-    margin-left: 48px;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-  }
-
+.header__logo {
+  width: 176px;
+  height: 52px;
+  background-image: url(../../../images/logo.svg);
+  margin-top: 28px;
+  margin-left: 48px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
 
 @media (max-width: 1023px) {
   .header__logo {
@@ -17,8 +16,7 @@
 
 @media (max-width: 767px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    background-image: url(../../../images/logo_320.svg);
     margin-top: 16px;
     margin-left: 16px;
   }

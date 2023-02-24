@@ -1,14 +1,14 @@
 .place-website__url-heading {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 2px;
-    margin-bottom: 12px;
-    color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  color: #aaaaaa;
+}
+
+@media (max-width: 1023px) {
+  .place-website__url-heading {
+    line-height: 12px;
   }
-  
-  @media (max-width: 1023px) {
-    .place-website__url-heading {
-      line-height: 12px;
-    }
-  }
+}
