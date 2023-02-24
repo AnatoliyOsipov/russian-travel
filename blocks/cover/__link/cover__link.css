@@ -10,7 +10,6 @@
   box-sizing: border-box;
   min-height: 740px;
   background-image: url(../../../images/trains.png);
-  background-size: cover;
 }
 
 .cover__link::before {
