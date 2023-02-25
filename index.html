@@ -16,16 +16,16 @@
   <body class="page">
     <header class="header">
       <div class="header__logo"></div>
-      <div class="header-lang header__link">
+      <div class="header__link">
         <a
-          class="header-lang__link header-lang__link_ru typography"
+          class="header-lang header-lang_active typography"
           href=""
           target="_blank"
           rel="noopener noreferrer"
           >Ru</a
         >
         <a
-          class="header-lang__link header-lang__link_en typography"
+          class="header-lang typography"
           href=""
           target="_blank"
           rel="noopener noreferrer"
@@ -39,10 +39,10 @@
         <p class="lead__subtitle typography">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <figcaption class="lead__picture">
+        <figure class="lead__picture">
           <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта" />
           <p class="lead__caption typography">ваша полка — верхняя</p>
-        </figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title typography">Чего мы там не видели?</h2>
@@ -57,15 +57,17 @@
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
         </p>
-        <p class="intro__list typography">Часовых поясов 11</p>
-        <p class="intro__list typography">
-          Объектов природного наследия ЮНЕСКО 12
-        </p>
-        <p class="intro__list typography">
-          Объектов культурного наследия ЮНЕСКО 16
-        </p>
-        <p class="intro__list typography">Природных заповедников 105</p>
-        <p class="intro__list typography">Аэропортов 241</p>
+        <ul class="intro__list typography">
+          <li>Часовых поясов <span class="number">11</span></li>
+          <li>
+            Объектов природного наследия ЮНЕСКО <span class="number">12</span>
+          </li>
+          <li>
+            Объектов культурного наследия ЮНЕСКО <span class="number">16</span>
+          </li>
+          <li>Природных заповедников <span class="number">105</span></li>
+          <li>Аэропортов <span class="number">241</span></li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img
@@ -132,11 +134,11 @@
       <section class="places">
         <article class="place">
           <h2 class="place__title typography">Куршская коса</h2>
-          <div class="place-website place__url-heading">
-            <p class="place-website__url-heading typography">URL</p>
+          <div class="place__website">
+            <p class="place__url-heading typography">URL</p>
             <a
               href="http://park-kosa.ru"
-              class="place-website__link typography"
+              class="place__link typography"
               target="_blank"
               rel="noopener noreferrer"
               >park-kosa.ru</a
@@ -164,13 +166,13 @@
             </p>
           </div>
         </article>
-        <div class="place">
+        <article class="place">
           <h2 class="place__title typography">Кольский</h2>
-          <div class="place-website place__url-heading">
-            <p class="place-website__url-heading typography">URL</p>
+          <div class="place__website">
+            <p class="place__url-heading typography">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              class="place-website__link typography"
+              class="place__link typography"
               target="_blank"
               rel="noopener noreferrer"
               >National Geographic</a
@@ -197,14 +199,14 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title typography">Алтай</h2>
-          <div class="place-website place__url-heading">
-            <p class="place-website__url-heading typography">URL</p>
+          <div class="place__website">
+            <p class="place__url-heading typography">URL</p>
             <a
               href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
-              class="place-website__link typography"
+              class="place__link typography"
               target="_blank"
               rel="noopener noreferrer"
               >YouTube</a
@@ -230,14 +232,14 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title typography">Зимний Байкал</h2>
-          <div class="place-website place__url-heading">
-            <p class="place-website__url-heading typography">URL</p>
+          <div class="place__website">
+            <p class="place__url-heading typography">URL</p>
             <a
               href="https://vk.com/baikalmile"
-              class="place-website__link typography"
+              class="place__link typography"
               target="_blank"
               rel="noopener noreferrer"
               >https://vk.com/baikalmile</a
@@ -262,14 +264,14 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title typography">Карелия</h2>
-          <div class="place-website place__url-heading">
-            <p class="place-website__url-heading typography">URL</p>
+          <div class="place__website">
+            <p class="place__url-heading typography">URL</p>
             <a
               href="http://vodlozero.ru"
-              class="place-website__link typography"
+              class="place__link typography"
               target="_blank"
               rel="noopener noreferrer"
               >http://vodlozero.ru/</a
@@ -293,7 +295,7 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
         <a
@@ -302,7 +304,7 @@
           target="_blank"
           rel="noopener noreferrer"
           ><h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle typography">
+          <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
           </p>
@@ -310,7 +312,7 @@
       </section>
     </main>
     <footer class="footer">
-      <nav>
+      <nav class="footer__links">
         <a
           class="footer__link typography"
           href="https://yandex.ru/maps"

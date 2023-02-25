@@ -1,16 +1,27 @@
 .header-lang {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  justify-content: end;
-  margin-left: auto;
+  margin-top: 46px;
+  margin-right: 18px;
+}
+
+.header-lang:last-child {
+  margin-right: 48px;
+}
+
+@media (max-width: 1023px) {
+  .header-lang:last-child {
+    margin-right: 24px;
   }
-  
-  
-  @media (max-width: 767px) {
-    .header-lang {
-    font-size: 18px;
-    line-height: 20px;
-    }
+}
+
+@media (max-width: 767px) {
+  .header-lang {
+    margin-top: 30px;
   }
+  .header-lang:last-child {
+    margin-right: 16px;
+  }
+}
+
+.header-lang:hover {
+  opacity: 0.8;
+}

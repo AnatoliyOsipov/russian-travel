@@ -16,6 +16,8 @@
 
 @media (max-width: 767px) {
   .header__logo {
+    width: 142px;
+    height: 42px;
     background-image: url(../../../images/logo_320.svg);
     margin-top: 16px;
     margin-left: 16px;
